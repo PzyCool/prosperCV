@@ -86,13 +86,21 @@ export const cvData = {
       techStack: ["React", "Tailwind", "Supabase", "Resend Email API"],
     },
     {
-      name: "SPP MAT-ARH Website",
-      type: "Company Website",
+      name: "ZinZool Platform",
+      type: "Web & Mobile Watch Party App",
       github: "",
-      live: "https://spp-matarh-website.vercel.app",
+      live: "https://zinzool.vercel.app",
       description:
-        "Built a company website to present services, company information, and brand presence using HTML, CSS, and JavaScript.",
-      techStack: ["HTML", "CSS", "JavaScript"],
+        "Built a real-time social watch platform where users can create/join rooms, sync video playback, chat live, invite friends, and manage sessions across web and mobile. The website is currently in live beta, while the mobile app is still under production.",
+      techStack: [
+        "React",
+        "TypeScript",
+        "Node.js",
+        "Express",
+        "Socket.IO",
+        "MongoDB",
+        "React Native (Expo)",
+      ],
     },
     {
       name: "DeyFlow",

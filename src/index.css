@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+.print-avoid-break {
+  break-inside: avoid;
+  page-break-inside: avoid;
+}
+
+@page {
+  size: A4 portrait;
+  margin: 10mm;
+}
+
+@media print {
+  html,
+  body,
+  #root {
+    background: #fff !important;
+  }
+
+  body {
+    margin: 0;
+    print-color-adjust: exact;
+    -webkit-print-color-adjust: exact;
+  }
+
+  .cv-paper {
+    margin: 0 auto;
+    width: 210mm;
+    min-height: 297mm;
+    box-shadow: none !important;
+    border-radius: 0 !important;
+  }
+}

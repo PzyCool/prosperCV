@@ -37,9 +37,7 @@ export default function ProfileHeader({ profile }) {
             alt={`${profile.fullName} profile`}
             className="h-36 w-28 rounded-xl border border-slate-300 object-cover object-[center_35%] shadow-sm"
           />
-        ) : (
-          <div className="h-36 w-28 rounded-xl border border-slate-300 bg-slate-50 shadow-sm" />
-        )}
+        ) : null}
 
         <div className="flex-1 space-y-3">
           <div>

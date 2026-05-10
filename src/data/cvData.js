@@ -1,11 +1,8 @@
-import profileImage from "../assets/CEOPzyCool.jpeg";
-
 export const cvData = {
   profile: {
-    profileImage,
     fullName: "Prosper Ovokeroye Arharhire",
     title: "Full-Stack Developer | Product-Focused Software Engineer",
-    location: "Nigeria / United Kingdom",
+    location: "Nigeria",
     email: "prosperoa12345@gmail.com",
     phoneNg: "08103279654",
     whatsAppUk: "+44 7534962812",

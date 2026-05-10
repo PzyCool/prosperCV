@@ -10,7 +10,9 @@ import { cvData } from "../../data/cvData";
 export default function CvPage() {
   return (
     <main className="min-h-screen bg-slate-100 px-4 py-8 text-slate-800 sm:px-6 md:py-12 print:bg-white print:p-0">
-      <div className="cv-paper mx-auto w-full max-w-[210mm] min-h-[297mm] rounded-lg bg-white p-6 shadow-xl sm:p-8 print:max-w-none print:rounded-none print:p-[12mm] print:shadow-none">
+      <div
+        className="cv-paper mx-auto w-full max-w-[210mm] min-h-[297mm] rounded-lg bg-white p-6 shadow-xl sm:p-8 print:max-w-none print:rounded-none print:p-[12mm] print:shadow-none"
+      >
         <ProfileHeader profile={cvData.profile} />
 
         <section className="mt-8 grid grid-cols-1 gap-8 md:grid-cols-10">
